@@ -20,10 +20,30 @@ const Landing = () => {
   return (
     <>
       <Helmet>
+      <title>Slogan Media</title>
+      <meta property="og:type" content="website" />
+      <meta
+      name="keywords"
+        content="sloan media, agency, website development, software development, marketing"
+     />
         <meta
           name="description"
           content="Expert performance marketing and growth hacking services to drive measurable results and business growth."
         />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:type" content="article" />
+
+<meta property="og:title" content="Slogan Media" />
+
+<meta property="og:description" content="Expert performance marketing and growth hacking services to drive measurable results and business growth" />
+
+<meta property="og:image" content="LINK TO THE IMAGE FILE" />
+
+<meta property="og:url" content="PERMALINK" />
+
+<meta property="og:site_name" content="SITE NAME" />
+        <link rel="canonical" href="http://example.com/" />
+
       </Helmet>
       <Header />
       <HeroBanner />
