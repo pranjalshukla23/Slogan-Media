@@ -1,0 +1,93 @@
+.web-caseStudy {
+  background-image: url(../../../../../public/img/web-dev/slogan-caseStudy.webp);
+  background-size: cover;
+  height: 100%;
+  margin: 30px 0;
+}
+
+.web-case-body {
+  padding: 40px;
+}
+.web-case-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.web-case-content {
+  margin: 20px;
+}
+.web-case-img {
+  /* margin:20px; */
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 32px;
+}
+
+.web-case-content img {
+  transform-origin: 50% 65%;
+  transition: transform 1s ease-in-out;
+}
+
+.web-case-content img:hover {
+  transform: scale(1.1);
+}
+
+.web-case-heading {
+  color: white;
+  margin: 40px 0 40px 150px;
+}
+.web-case-heading h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
+.web-case-heading p {
+  font-size: 19px;
+  text-transform: uppercase;
+  border-left: 10px solid white;
+  padding-left: 10px;
+}
+
+@media (max-width: 1000px) {
+  .web-caseStudy {
+    height: 100%;
+  }
+
+  .web-case-heading {
+    margin: 40px;
+  }
+  .web-case-content-heading h1 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 800px) {
+  .web-case-body {
+    padding: 20px;
+  }
+  .web-case-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .web-case-content {
+    margin: 20px;
+  }
+  .web-case-img {
+    /* margin:20px; */
+    border-radius: 32px;
+  }
+
+  .web-case-heading {
+    color: white;
+    margin: 40px;
+  }
+  .web-case-heading h1 {
+    font-size: 22px;
+  }
+  .web-case-heading p {
+    font-size: 12px;
+    margin: 5px;
+  }
+}

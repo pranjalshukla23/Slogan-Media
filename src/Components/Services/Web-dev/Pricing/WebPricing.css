@@ -1,0 +1,138 @@
+.web-pricing .social-pricing-div {
+  height: 30vh;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+.modal-img img {
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  max-width: 18%;
+}
+
+.modal {
+  padding: 20px;
+}
+
+.modal .digital-contact-heading {
+  text-align: right;
+}
+.modal .digital-contact-heading h1 {
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  width: 60%;
+  margin: 0 20px 0 auto;
+}
+
+.modal .contact-wrapper {
+  flex-direction: row-reverse;
+  padding: 20px;
+}
+
+.modal .form-control,
+.modal textarea {
+  letter-spacing: 1px;
+  width: 400px;
+  margin: 5px 0;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.modal .send-button {
+  width: 400px;
+}
+@media (max-width: 1400px) {
+  .modal-img img {
+    max-width: 15%;
+  }
+  .modal .direct-contact-container {
+    display: none;
+  }
+  .modal .digital-contact-heading {
+    text-align: center;
+  }
+
+  .modal .digital-contact-heading h1 {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .web-pricing .social-pricing-div {
+    height: auto;
+  }
+  .modal-img img {
+    display: block;
+    top: -20px;
+    left: -20px;
+    max-width: 20%;
+  }
+
+  .modal {
+    padding: 20px;
+  }
+  .modal .digital-contact-heading {
+    text-align: center;
+  }
+
+  .modal .digital-contact-heading h1 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%;
+    margin: 0 10px 0 auto;
+  }
+
+  .modal .contact-wrapper {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .modal .form-control,
+  .modal textarea {
+    letter-spacing: 1px;
+    width: 100%;
+    margin: 5px 0;
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .modal .send-button {
+    width: 100%;
+  }
+
+  .modal section-para {
+    /* margin: 0 20px; */
+    font-size: 11px;
+  }
+  .popup-content {
+    width: 80%;
+  }
+
+  .modal .direct-contact-container {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .modal-img img {
+    display: block;
+    top: -20px;
+    left: -20px;
+    max-width: 15%;
+  }
+}

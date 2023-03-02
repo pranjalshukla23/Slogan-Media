@@ -1,0 +1,134 @@
+.career-bet {
+  padding: 50px;
+  background-color: #f2f9ff;
+}
+
+.career-bet-content {
+  display: flex;
+}
+
+.career-bet-head {
+  width: 50%;
+  position: relative;
+  margin: 40px 0;
+}
+
+.career-bet-img {
+  width: 50%;
+}
+.career-bet-img img {
+  max-width: 35%;
+  position: absolute;
+  top: 80%;
+  right: 10%;
+}
+
+.career-bet-head h1 {
+  margin: 20px 0;
+  font-size: 50px;
+}
+.career-bet-head p {
+  font-size: 30px;
+}
+.career-bet-div {
+  display: flex;
+}
+.career-bet-div h1 {
+  font-size: 30px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+.career-bet-div p {
+  font-size: 28px;
+}
+.career-bet-div1 {
+  display: flex;
+}
+.career-bet-div1 h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.career-bet-div1 p {
+  font-size: 28px;
+}
+.career-bet-body {
+  width: 25%;
+  margin: 30px 80px 30px 0;
+}
+
+@media (max-width: 1200px) {
+  .career-bet-head h1 {
+    font-size: 26px;
+  }
+  .career-bet-head p {
+    font-size: 22px;
+  }
+  .career-bet-div h1 {
+    font-size: 26px;
+  }
+  .career-bet-div p {
+    font-size: 22px;
+  }
+  .career-bet-div1 h1 {
+    font-size: 26px;
+  }
+  .career-bet-div1 p {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 800px) {
+  .career-bet {
+    padding: 20px;
+  }
+
+  .career-bet-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .career-bet-head {
+    width: 100%;
+  }
+
+  .career-bet-img {
+    width: 100%;
+  }
+  .career-bet-img img {
+    max-width: 50%;
+    position: absolute;
+  }
+
+  .career-bet-head h1 {
+    font-size: 26px;
+  }
+  .career-bet-head p {
+    font-size: 20px;
+  }
+  .career-bet-div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .career-bet-div h1 {
+    font-size: 24px;
+  }
+  .career-bet-div p {
+    font-size: 18px;
+  }
+  .career-bet-div1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .career-bet-div1 h1 {
+    font-size: 24px;
+  }
+  .career-bet-div1 p {
+    font-size: 18px;
+  }
+  .career-bet-body {
+    width: 80%;
+    margin: 30;
+  }
+}

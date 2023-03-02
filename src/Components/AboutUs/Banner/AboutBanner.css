@@ -1,0 +1,61 @@
+.aboutus-banner {
+  background-image: url(../../../../public/img/about/slogan-bg.webp);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.aboutus-content {
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.342);
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus-body h1 {
+  font-size: 62px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.aboutus-body p {
+  font-size: 30px;
+  font-weight: 400;
+  width: 70%;
+  margin: 30px auto;
+}
+
+@media (max-width: 1000px) {
+  .aboutus-banner {
+    height: 80vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .aboutus-banner {
+    height: 90vh;
+  }
+
+  .aboutus-body h1 {
+    font-size: 32px;
+    margin: 20px 0;
+  }
+
+  .aboutus-body p {
+    font-size: 18px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 700px) {
+  .aboutus-banner {
+    background-image: url(../../../../public/img/about/slogan-bg-mb.webp);
+    background-size: cover;
+  }
+}

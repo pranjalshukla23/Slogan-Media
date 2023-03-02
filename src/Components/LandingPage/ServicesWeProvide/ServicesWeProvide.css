@@ -1,0 +1,155 @@
+.servicesProvide-div li:hover {
+  transform: scale(1.1);
+}
+
+.servicesProvide {
+  margin: 10px 20px 0 20px;
+  text-align: center;
+}
+
+.servicesProvide-heading h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+#Grid {
+  margin-top: 20px;
+}
+
+#Grid .servicesProvide-div {
+  margin: 3px auto;
+  display: flex;
+  justify-content: center;
+  border: 2px solid green;
+}
+
+#Grid h2 {
+  margin: 10px auto;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+#Grid p {
+  color: #757575;
+  font-size: 10px;
+  /* font-size: .8vw; */
+}
+
+#Grid li {
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 1.5%;
+  border-radius: 32px;
+  box-shadow: rgb(60 64 67 / 22%) 11px 10px 20px 0px,
+    rgb(60 64 67 / 12%) 1px 2px 6px 4px;
+  transition: transform 1s;
+}
+
+#Grid img {
+  max-width: 30%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1400px) {
+  .servicesProvide-heading h1 {
+    font-size: 46px;
+    margin: 30px 0;
+  }
+
+  #Grid img {
+    max-width: 35%;
+  }
+  #Grid h2 {
+    font-size: 18px;
+  }
+  #Grid p {
+    font-size: 12px;
+  }
+  #Grid {
+    margin-top: 10px;
+  }
+  .servicesProvide {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 1200px) {
+  .servicesProvide-heading h1 {
+    font-size: 46px;
+    margin: 30px 0;
+  }
+  #Grid div {
+    flex-direction: column;
+  }
+  #Grid img {
+    max-width: 45%;
+  }
+  #Grid li {
+    width: 48%;
+    /* padding-top: 31%; */
+    margin: 30px auto;
+  }
+  #Grid h2 {
+    font-size: 30px;
+  }
+  #Grid p {
+    font-size: 22px;
+  }
+  #Grid {
+    margin-top: 10px;
+  }
+  .servicesProvide {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  .servicesProvide-heading h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  #Grid div {
+    flex-direction: column;
+  }
+  #Grid img {
+    max-width: 45%;
+  }
+  #Grid h2 {
+    font-size: 18px;
+  }
+  #Grid p {
+    font-size: 12px;
+  }
+  #Grid li {
+    width: 41%;
+    margin: 20px auto;
+  }
+
+  #Grid {
+    margin-top: 10px;
+  }
+  .servicesProvide {
+    margin-top: 50px;
+  }
+}
+
+/* 2 COL */
+
+@media (max-width: 600px) {
+  #Grid li {
+    width: 60%;
+    margin-bottom: 4%;
+  }
+}
+
+/* SINGLE COL */
+
+@media (max-width: 400px) {
+  #Grid li {
+    width: 80%;
+    margin: 10% 0;
+    margin: 20px auto;
+  }
+}

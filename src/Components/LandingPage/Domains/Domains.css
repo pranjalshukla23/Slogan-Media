@@ -1,0 +1,167 @@
+.domains-div {
+  height: 100vh;
+  width: 100%;
+  background-color: #081158;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid green;
+}
+
+.domain-header h1 {
+  font-size: 100px;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 40px;
+  max-width: 70%;
+}
+
+.domain-header {
+  padding: 110px 70px 50px 70px;
+}
+
+.domain-header p {
+  font-size: 30px;
+  max-width: 50%;
+}
+
+.curve {
+  position: absolute;
+  max-width: 40%;
+  top: 0;
+  right: 0;
+}
+
+.domain-icons-div {
+  display: flex;
+  flex-direction: row;
+  margin: 0 80px;
+}
+
+.domain-loop {
+  display: flex;
+  position: absolute;
+  margin-top: 20px;
+  transform: translate3d(0, 0, 0);
+  animation: slide 15s linear infinite;
+}
+
+.domain-icons-div img {
+  width: 50%;
+  height: 40%;
+  margin: auto 10px;
+}
+
+.domain-icons-div h1 {
+  margin: auto 10px;
+  font-size: 45px;
+}
+
+.domain-container {
+  position: relative;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 1000px) {
+  .domains-div {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 1200px) {
+  .domains-div {
+    /* text-align: center; */
+    height: 55vh;
+  }
+}
+@media (max-width: 1400px) {
+  .domain-header h1 {
+    font-size: 54px;
+  }
+
+  .domain-header p {
+    font-size: 34px;
+  }
+  .domains-div {
+    /* text-align: center; */
+    height: 75vh;
+  }
+}
+
+@media (max-width: 1500px) {
+  .domain-header {
+    padding: 70px 40px 30px 40px;
+  }
+
+  .domains-div {
+    /* text-align: center; */
+    height: 60vh;
+  }
+  .domain-icons-div img {
+    width: 50px;
+    height: 50%;
+    margin: auto 10px;
+  }
+  .domain-icons-div {
+    margin: 0 40px;
+  }
+
+  .domain-icons-div h1 {
+    margin: auto 0px;
+    font-size: 24px;
+  }
+  .domain-header h1 {
+    font-size: 38px;
+    margin-bottom: 40px;
+    max-width: 100%;
+  }
+
+  .domain-header p {
+    font-size: 24px;
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 800px) {
+  .domain-header {
+    padding: 70px 40px 30px 40px;
+  }
+
+  .domains-div {
+    text-align: center;
+    height: 60vh;
+  }
+  .domain-icons-div img {
+    width: 40px;
+    height: 40%;
+    margin: auto 5px;
+  }
+  .domain-icons-div {
+    margin: 0 30px;
+  }
+
+  .domain-icons-div h1 {
+    margin: auto 0px;
+    font-size: 20px;
+  }
+  .domain-header h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    max-width: 100%;
+  }
+
+  .domain-header p {
+    font-size: 18px;
+    max-width: 100%;
+  }
+}

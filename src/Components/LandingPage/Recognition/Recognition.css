@@ -1,0 +1,63 @@
+.Recognition {
+  height: 350px;
+  background-color: #000020;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.Recognition h1 {
+  font-size: 46px;
+  font-weight: 500;
+}
+
+.Recognition-heading {
+  padding: 40px;
+}
+
+.recognition-loop {
+  display: flex;
+  position: absolute;
+  transform: translate3d(0, 0, 0);
+  animation: slide3 15s linear infinite;
+}
+
+@keyframes slide3 {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-80%);
+  }
+}
+
+.recognition-loop img {
+  height: 90px;
+  margin: 20px;
+}
+
+.recognition-ads {
+  background-color: #e5fff7;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.recognition-ads a {
+  margin: 0 30px;
+}
+
+@media (max-width: 800px) {
+  .Recognition h1 {
+    font-size: 22px;
+  }
+  .recognition-loop img {
+    height: 35px;
+    margin: 10px;
+  }
+  .Recognition {
+    height: 200px;
+  }
+}

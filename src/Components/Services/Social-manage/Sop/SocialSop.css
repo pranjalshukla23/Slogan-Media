@@ -1,0 +1,102 @@
+.social-sop {
+  background-color: #edeff2;
+  padding: 80px 20px;
+}
+/* .social-sop-content{
+    display: flex;
+    margin: 60px 30px;
+} */
+
+/* .social-sop AliceCarousel{
+    margin-top: 60px;
+
+} */
+
+.social-sop-title {
+  margin-bottom: 70px;
+}
+
+.social-sop-title h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #0e2b5c;
+  text-align: center;
+}
+
+.social-sop-div {
+  /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+  margin: auto;
+  text-align: center;
+  width: 60%;
+}
+
+.social-sop-div img {
+  margin: auto;
+  max-width: 18%;
+}
+
+.social-sop-div h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #0e2b5c;
+  margin: 10px 0;
+}
+.social-sop-div p {
+  font-size: 16px;
+  color: #7a8ca3;
+}
+
+.social-sop .alice-prev,
+.social-sop .alice-next {
+  color: #0e2b5caf;
+  bottom: 0px;
+  display: flex;
+  /* padding: 211px 0; */
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social-sop .alice-prev:hover,
+.social-sop .alice-next:hover {
+  color: #0e2b5c;
+}
+
+.social-sop .alice-prev {
+  left: -20px;
+}
+.social-sop .alice-next {
+  right: -20px;
+}
+
+.social-sop .alice-prev-inside,
+.social-sop .alice-next-inside {
+  border-radius: 50px;
+  background-color: #6d6d6d00;
+}
+
+.social-sop .alice-carousel__prev-btn,
+.social-sop .alice-carousel__next-btn {
+  top: 0;
+  color: #fff;
+  font-size: 26px;
+  bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  transition: all 0.25s ease-in;
+  /* opacity: .4; */
+  /* filter: alpha(opacity=40); */
+  position: absolute;
+  z-index: 2;
+}
+
+.social-sop .alice-carousel__next-btn {
+  right: 0;
+}
+
+@media (max-width: 800px) {
+  .social-sop-title h1 {
+    font-size: 22px;
+  }
+}

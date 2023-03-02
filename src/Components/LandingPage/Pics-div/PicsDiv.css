@@ -1,0 +1,57 @@
+.PicsDiv {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+@media (max-width: 1200px) {
+  .PicsDiv {
+    font-size: 24px;
+  }
+}
+@media (max-width: 800px) {
+  .PicsDiv {
+    font-size: 12px;
+  }
+}
+
+@keyframes fade-left {
+  0% {
+    transform: translateX(-150px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(150px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-up {
+  0% {
+    transform: translateY(150px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-down {
+  0% {
+    transform: translateY(-150px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

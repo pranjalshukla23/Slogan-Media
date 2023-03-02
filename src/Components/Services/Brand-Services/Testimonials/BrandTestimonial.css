@@ -1,0 +1,332 @@
+.brand-testi {
+  height: 100vh;
+}
+
+.brand-testi-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-testi-heading {
+  background-image: url(../../../../../public/img/brand-media/slogan-4.webp);
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  padding-top: 55px;
+  height: 65vh;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.brand-testi-heading h1 {
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.brand-testi-heading p {
+  font-size: 23px;
+  width: 50%;
+}
+
+.brand-testi-body {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 70%;
+  padding: 40px;
+  position: absolute;
+  display: flex;
+}
+
+.brand-testi-body-head {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.brand-testi-body-head h1 {
+  font-size: 34px;
+  font-weight: bold;
+  margin: 10px 0 20px 0;
+}
+
+.brand-testi-body-head p {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.brand-testi-body-img {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.brand-testi-carousel-top {
+  margin-bottom: 30px;
+}
+.brand-testi-carousel-top h1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.brand-testi-carousel-top p {
+  font-size: 12px;
+  font-weight: 600;
+  color: #727272;
+  width: 80%;
+}
+.brand-testi-carousel-bottom h1 {
+  font-size: 16px;
+}
+.brand-testi-carousel-bottom p {
+  font-size: 12px;
+  font-weight: 600;
+  color: #727272;
+}
+
+.brand-testi-card {
+  /* width:40%; */
+  padding: 0px 30px;
+}
+
+.brand-testi-carousel {
+  padding: 20px;
+  /* display: flex; */
+  /* align-items: centv */
+}
+
+.brand-testi .alice-carousel {
+  width: 70%;
+}
+
+.brand-testi .alice-carousel__wrapper {
+  height: 40vh;
+}
+
+.brand-testi .alice-prev,
+.brand-testi .alice-next {
+  color: #0e2b5caf;
+  bottom: 0px;
+  display: flex;
+  /* padding: 211px 0; */
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brand-testi .alice-prev:hover,
+.brand-testi .alice-next:hover {
+  color: #0e2b5c;
+}
+
+.brand-testi .alice-prev {
+  left: -30px;
+}
+.brand-testi .alice-next {
+  right: 0px;
+}
+
+.brand-testi .alice-prev-inside,
+.brand-testi .alice-next-inside {
+  border-radius: 50px;
+  background-color: #6d6d6d00;
+}
+
+.brand-testi .alice-carousel__prev-btn,
+.brand-testi .alice-carousel__next-btn {
+  top: 0;
+  color: rgb(0, 0, 0);
+  font-size: 26px;
+  bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  transition: all 0.25s ease-in;
+  /* opacity: .4; */
+  /* filter: alpha(opacity=40); */
+  position: absolute;
+  z-index: 2;
+}
+
+.brand-testi .alice-carousel__next-btn {
+  right: 0;
+}
+
+@media (max-width: 1400px) {
+  .brand-testi-carousel-top h1 {
+    font-size: 20px;
+  }
+  .brand-testi-carousel-bottom h1 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .brand-testi-heading h1 {
+    font-size: 30px;
+  }
+
+  .brand-testi-heading p {
+    font-size: 20px;
+    /* width: 80%; */
+  }
+  .brand-testi-body-head {
+    margin-right: 20px;
+  }
+  .brand-testi-carousel-top h1 {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  .brand-testi-carousel-top p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .brand-testi-heading {
+    padding-top: 55px;
+    height: 500px;
+  }
+  .brand-testi {
+    height: 800px;
+  }
+
+  .brand-testi-div {
+    flex-direction: column;
+  }
+
+  .brand-testi-heading h1 {
+    font-size: 26px;
+  }
+
+  .brand-testi-heading p {
+    font-size: 16px;
+    width: 80%;
+  }
+
+  .brand-testi-body {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .brand-testi-body-head {
+    width: 100%;
+  }
+
+  .brand-testi-body-head h1 {
+    font-size: 22px;
+    margin: 10px 0;
+  }
+
+  .brand-testi-body-head p {
+    font-size: 12px;
+  }
+
+  .brand-testi-body-img {
+    margin: 20px;
+    width: 100%;
+  }
+
+  .brand-testi-carousel-top {
+    margin-bottom: 30px;
+  }
+  .brand-testi-carousel-top h1 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  .brand-testi-carousel-top p {
+    font-size: 12px;
+    font-weight: 600;
+    color: #727272;
+    width: 100%;
+  }
+  .brand-testi .alice-carousel {
+    width: 100%;
+  }
+
+  .brand-testi .alice-carousel__wrapper {
+    height: auto;
+  }
+  .brand-testi .alice-prev {
+    left: -10px;
+  }
+  .brand-testi .alice-next {
+    right: -10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .brand-testi {
+    height: 110vh;
+  }
+
+  .brand-testi-div {
+    flex-direction: column;
+  }
+
+  .brand-testi-heading h1 {
+    font-size: 26px;
+  }
+
+  .brand-testi-heading p {
+    font-size: 16px;
+    width: 80%;
+  }
+
+  .brand-testi-body {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .brand-testi-body-head {
+    width: 100%;
+  }
+
+  .brand-testi-body-head h1 {
+    font-size: 22px;
+    margin: 10px 0;
+  }
+
+  .brand-testi-body-head p {
+    font-size: 12px;
+  }
+
+  .brand-testi-body-img {
+    margin: 20px;
+    width: 100%;
+  }
+
+  .brand-testi-carousel-top {
+    margin-bottom: 30px;
+  }
+  .brand-testi-carousel-top h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0;
+  }
+  .brand-testi-carousel-top p {
+    font-size: 12px;
+    font-weight: 600;
+    color: #727272;
+    width: 100%;
+  }
+  .brand-testi .alice-carousel {
+    width: 100%;
+  }
+
+  .brand-testi .alice-carousel__wrapper {
+    height: 40vh;
+  }
+  .brand-testi .alice-prev {
+    left: -10px;
+  }
+  .brand-testi .alice-next {
+    right: -10px;
+  }
+}

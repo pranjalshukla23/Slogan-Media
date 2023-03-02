@@ -1,0 +1,118 @@
+.web-expertise {
+  padding: 30px;
+}
+.web-expertise-heading {
+  margin: 30px 0;
+}
+.web-expertise-heading h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.web-expertise-body {
+  margin: 80px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.web-expertise-content {
+  background-color: #edf6ff;
+  padding: 30px 30px 60px 30px;
+  margin: 30px;
+  position: relative;
+  border-radius: 18px;
+  width: 25%;
+}
+
+.web-expertise-content:hover {
+  transition: 0.5s linear;
+  background-color: #3b2dff;
+  color: #fff;
+}
+
+.web-expertise-content img {
+  max-width: 50%;
+  height: 60px;
+  background-size: cover;
+}
+
+.web-expertise-content h1 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.web-expertise-content-para {
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.web-expertise-content-a {
+  position: absolute;
+  bottom: 20px;
+}
+.web-expertise-content-a p {
+  color: #3426ff;
+  /* text-decoration: underline; */
+  /* margin-top:30px; */
+}
+.web-expertise-content-a p:hover {
+  font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+  .web-expertise-content {
+    padding: 20px 20px 60px 20px;
+    margin: 20px;
+    width: 25%;
+  }
+  .web-expertise-content h1 {
+    font-size: 22px;
+    margin: 20px 0;
+  }
+
+  .web-expertise-content-para {
+    font-size: 16px;
+    opacity: 0.8;
+  }
+}
+
+@media (max-width: 800px) {
+  .web-expertise {
+    padding: 20px;
+  }
+  .web-expertise-heading {
+    margin: 20px;
+  }
+  .web-expertise-heading h1 {
+    font-size: 22px;
+  }
+
+  .web-expertise-body {
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .web-expertise-content {
+    padding: 30px 30px 60px 30px;
+    margin: 20px;
+    position: relative;
+    border-radius: 18px;
+    width: 100%;
+  }
+
+  .web-expertise-content img {
+    max-width: 50%;
+    height: 60px;
+  }
+
+  .web-expertise-content h1 {
+    font-size: 22px;
+    margin: 20px 0;
+  }
+
+  .web-expertise-content-para {
+    font-size: 16px;
+    opacity: 0.8;
+  }
+}

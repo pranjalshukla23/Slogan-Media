@@ -1,0 +1,164 @@
+.digital-ads {
+  padding: 0px 80px;
+}
+
+.digital-ads-title {
+  font-size: 64px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.digital-ads-body-left {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.digital-ads-body-right {
+  margin: 100px 0;
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+}
+
+.digital-ads-body-right .digital-ads-content img {
+  max-width: 8%;
+  margin: 20px 0 0 auto;
+}
+
+.digital-ads-logo {
+}
+.digital-ads-logo-right img {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  max-width: 30%;
+}
+.digital-ads-logo-left img {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  max-width: 30%;
+}
+
+.digital-ads-written-left {
+  width: 85%;
+}
+.digital-ads-written-right {
+  width: 85%;
+  margin: 0 0 0 auto;
+}
+
+.digital-ads-content {
+  /* position: absolute; */
+  width: 80%;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 30px 50px;
+}
+
+.digital-ads-content p {
+  font-size: 22px;
+  margin: 20px 0;
+}
+
+.digital-ads-heading h1 {
+  text-align: center;
+  font-size: 44px;
+}
+
+.digital-ads-content img {
+  max-width: 8%;
+  margin-top: 20px;
+}
+
+@media (max-width: 1000px) {
+  .digital-ads-title {
+    font-size: 28px;
+  }
+  .digital-ads-body-right .digital-ads-content img {
+    max-width: 20%;
+    margin: 10px 0 0 auto;
+  }
+
+  .digital-ads-content img {
+    max-width: 20%;
+    margin-top: 10px;
+  }
+  .digital-ads-logo-right img {
+    display: none;
+  }
+  .digital-ads-logo-left img {
+    display: none;
+  }
+
+  .digital-ads-written-left {
+    width: 100%;
+  }
+  .digital-ads-written-right {
+    width: 100%;
+    /* margin: 0 0 0 auto; */
+  }
+
+  .digital-ads-content {
+    /* position: absolute; */
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .digital-ads-title {
+    font-size: 24px;
+  }
+  .digital-ads {
+    padding: 0px 20px;
+  }
+
+  .digital-ads-body-left {
+    margin: 50px 0;
+  }
+  .digital-ads-body-right {
+    margin: 50px 0;
+  }
+
+  .digital-ads-logo-right img {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    max-width: 30%;
+    display: none;
+  }
+  .digital-ads-logo-left img {
+    position: absolute;
+    display: none;
+    top: 40px;
+    left: 0;
+    max-width: 30%;
+  }
+
+  .digital-ads-written-left {
+    width: 100%;
+  }
+  .digital-ads-written-right {
+    width: 100%;
+    /* margin: 0 0 0 auto; */
+  }
+
+  .digital-ads-content {
+    /* position: absolute; */
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px 20px;
+  }
+
+  .digital-ads-content p {
+    font-size: 12px;
+    margin: 20px 0;
+  }
+
+  .digital-ads-heading h1 {
+    text-align: center;
+    font-size: 16px;
+  }
+}

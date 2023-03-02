@@ -1,0 +1,154 @@
+.brand-services {
+  text-align: center;
+  padding: 40px;
+  background-color: #f5faff;
+}
+
+.brand-services-heading {
+  margin: 30px 0;
+}
+.brand-services-heading h1 {
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.brand-services-heading p {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.brand-services-content {
+  padding: 30px 10px;
+}
+
+.brand-services-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-services-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 20px;
+  padding: 30px 20px;
+  transition: transform 1s ease-in-out;
+  /* height: 42vh; */
+}
+
+.brand-services-box:hover {
+  transform: scale(1.05);
+  background-color: #f5faff;
+}
+
+.brand-services-box img {
+  max-width: 20%;
+}
+
+.brand-services-box h1 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 15px;
+}
+
+.brand-services-box p {
+  font-size: 19px;
+  color: #727272;
+  margin-bottom: 20px;
+  height: 80px;
+}
+
+@media (max-width: 1300px) {
+  .brand-services-box h1 {
+    font-size: 24px;
+    margin: 15px;
+  }
+
+  .brand-services-box p {
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 10px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .brand-services-box h1 {
+    font-size: 22px;
+    margin: 15px;
+  }
+
+  .brand-services-box p {
+    font-size: 15px;
+    color: #727272;
+    margin-bottom: 10px;
+    height: 100px;
+  }
+}
+@media (max-width: 900px) {
+  .brand-services-box h1 {
+    font-size: 14px;
+    margin: 15px;
+  }
+
+  .brand-services-box p {
+    font-size: 12px;
+    color: #727272;
+    margin-bottom: 10px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 800px) {
+  .brand-services {
+    padding: 20px;
+  }
+
+  .brand-services-heading {
+    margin: 20px 0;
+  }
+  .brand-services-heading h1 {
+    font-size: 24px;
+  }
+
+  .brand-services-heading p {
+    font-size: 16px;
+  }
+
+  .brand-services-content {
+    padding: 10px;
+  }
+
+  .brand-services-top {
+    flex-direction: column;
+  }
+
+  .brand-services-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* height: 42vh; */
+  }
+
+  .brand-services-box img {
+    max-width: 20%;
+  }
+
+  .brand-services-box h1 {
+    font-size: 22px;
+    margin: 15px;
+  }
+
+  .brand-services-box p {
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 10px;
+    height: 80px;
+  }
+}

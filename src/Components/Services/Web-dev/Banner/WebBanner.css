@@ -1,0 +1,43 @@
+.web-banner {
+  background-image: url(../../../../../public/img/web-dev/slogan-bg.webp);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 50px;
+}
+
+.web-banner .digital-banner-text h1 {
+  font-size: 66px;
+}
+.web-banner .digital-banner-img {
+  animation: fade-up 1s ease-in;
+}
+
+@media (max-width: 1000px) {
+  .web-banner {
+    height: 60vh;
+  }
+  .web-banner .digital-banner-text h1 {
+    font-size: 46px;
+  }
+  .web-banner .digital-banner-text p {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 800px) {
+  .web-banner {
+    height: 100vh;
+    flex-direction: column-reverse;
+  }
+  .web-banner .digital-banner-text h1 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .web-banner .digital-banner-img {
+    width: 80%;
+    height: 30px;
+  }
+}

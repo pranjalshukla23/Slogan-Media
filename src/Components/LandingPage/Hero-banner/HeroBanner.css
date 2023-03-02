@@ -1,0 +1,100 @@
+.HeroBanner {
+  height: 100vh;
+  max-width: 100%;
+  background-image: linear-gradient(225deg, #48ffc8 20%, #65a8ff 100%);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: AnimationName 7s ease infinite;
+  background-size: 200%;
+  backdrop-filter: blur(20px);
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.Hero-content {
+  max-width: 80%;
+}
+
+.HeroBanner h1 {
+  font-size: 100px;
+}
+
+.HeroBanner p {
+  font-size: 40px;
+  margin: 80px 0 50px 0;
+  color: #525252;
+}
+
+.HeroBanner button {
+  background-color: #000;
+  color: #fff;
+  font-size: 26px;
+  border-radius: 8px;
+  padding: 10px 40px;
+}
+
+@media (max-width: 1400px) {
+  .HeroBanner h1 {
+    font-size: 78px;
+  }
+  .HeroBanner p {
+    font-size: 40px;
+    margin: 60px 0 50px 0;
+  }
+  .HeroBanner button {
+    padding: 20px 30px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 1200px) {
+  .HeroBanner h1 {
+    font-size: 50px;
+  }
+  .HeroBanner p {
+    font-size: 30px;
+    margin: 50px 0 40px 0;
+  }
+  .HeroBanner {
+    height: 60vh;
+    /* max-width: 100vw; */
+  }
+  .HeroBanner button {
+    padding: 20px 30px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  .HeroBanner h1 {
+    font-size: 28px;
+  }
+
+  .HeroBanner p {
+    font-size: 18px;
+    margin: 20px 0 50px 0;
+  }
+
+  .HeroBanner button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .HeroBanner {
+    height: 50vh;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,118 @@
+.social-works {
+  background-color: #17163e;
+  background: url(../../../../../public/img/social-manage/work/slogan-bg.png);
+  background-size: fit;
+}
+.social-works ._215Bn {
+  width: 827px;
+  height: 479px;
+  margin: 36px;
+}
+
+.social-works ._xsi02._1uQwZ {
+  opacity: 0.6;
+  z-index: 1;
+  transform: scale(0.8) translateX(240px);
+}
+
+.social-works ._xsi02._KqFRp {
+  transform: scale(0.8) translateX(-240px);
+  z-index: 1;
+  opacity: 0.6;
+}
+
+.social-works ._1Lxpd {
+  justify-content: center;
+}
+
+.social-works ._1Lxpd span {
+  z-index: 10;
+}
+
+#social-work-carousel {
+}
+
+.social-works-content {
+  /* position: relative; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  /* background-color: #17163E; */
+}
+
+.social-cau {
+  max-width: 100%;
+  /* object-fit: cover; */
+  border-radius: 8px;
+  color: #fff;
+}
+
+.social-works-heading {
+  padding: 40px 40px 0 40px;
+  /* width: 100%; */
+}
+.social-works-heading h1 {
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 40px;
+  color: #fff;
+}
+
+.social-works .social-work-btn {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.8;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+.social-work-btn i {
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .social-works ._215Bn {
+    width: 627px;
+    height: 379px;
+    margin: 26px;
+  }
+
+  .social-works ._xsi02._1uQwZ {
+    transform: scale(0.8) translateX(200px);
+  }
+
+  .social-works ._xsi02._KqFRp {
+    transform: scale(0.8) translateX(-200px);
+  }
+  .social-works-heading h1 {
+    font-size: 30px;
+
+    padding-top: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .social-works ._215Bn {
+    width: 280px;
+    height: 189px;
+    margin: 16px;
+  }
+
+  .social-works ._xsi02._1uQwZ {
+    transform: scale(0.8) translateX(60px);
+  }
+
+  .social-works ._xsi02._KqFRp {
+    transform: scale(0.8) translateX(-60px);
+  }
+  .social-works-heading h1 {
+    font-size: 24px;
+    padding-top: 20px;
+  }
+  .social-works .social-work-btn {
+    padding: 5px;
+  }
+}

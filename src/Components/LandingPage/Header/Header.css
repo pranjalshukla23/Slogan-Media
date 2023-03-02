@@ -1,0 +1,159 @@
+.header-btn button {
+  padding: 18px 20px;
+}
+.header {
+  overflow: hidden;
+}
+
+.link-header {
+  width: 30%;
+}
+
+.nav-link[aria-current="page"] {
+  border-bottom: 3px solid #4c3fff;
+}
+
+nav {
+  transition: 0.6s linear;
+  z-index: 60;
+}
+.header img {
+  max-width: 55%;
+}
+
+.header a:hover {
+  color: #4c3fff;
+}
+
+.book-btn {
+  background-color: #6459fe;
+  background: linear-gradient(-45deg, #5e9ff5, #4ad5b5, #338aff, #3cf0c5);
+  background-size: 600%;
+  animation: anime 16s linear infinite;
+  /* position: absolute; */
+  top: 23px;
+  right: 40px;
+  z-index: 1000;
+}
+.book-btn:hover {
+  transform: scale(1.1);
+  transition: 0.8s linear;
+}
+.book-btn-sm {
+  background-color: #6459fe;
+  background: linear-gradient(-45deg, #5e9ff5, #4ad5b5, #338aff, #3cf0c5);
+  background-size: 600%;
+  animation: anime 16s linear infinite;
+}
+.book-btn-sm:hover {
+  transform: scale(1.1);
+  transition: 0.8s linear;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  transition: 0.4s all;
+}
+
+.dropdown-content a:hover {
+  background-color: #e5e3ff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .header li a {
+    font-size: 14px;
+  }
+  .header-div {
+    gap: 20px;
+  }
+  .header-btn button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .book-btn {
+    top: 10px;
+    right: 20px;
+  }
+}
+@media (max-width: 900px) {
+  .header li a {
+    font-size: 12px;
+  }
+  .header-div {
+    gap: 10px;
+  }
+
+  .book-btn {
+    top: 0px;
+    right: 0px;
+  }
+}
+
+@media (max-width: 755px) {
+  .header img {
+    max-width: 70%;
+  }
+  .link-header {
+    width: 20%;
+  }
+  .header li a {
+    font-size: 13px;
+  }
+  .header-div {
+    gap: 10px;
+  }
+  .hidden {
+    gap: 14px;
+  }
+}
+@media (max-width: 638px) {
+  nav {
+    justify-content: space-between;
+    margin-left: 0;
+  }
+  .header img {
+    max-width: 100%;
+  }
+  .dropdown-content {
+    position: relative;
+  }
+  .dropdown:hover .dropdown-content {
+    display: inline;
+  }
+  .dropdown-content a {
+    text-align: center;
+  }
+  .book-btn {
+    display: none;
+  }
+}

@@ -1,0 +1,137 @@
+#clients {
+  margin-top: 20px;
+  padding: 50px 60px;
+  text-align: left;
+  height: 140vh;
+  background-color: #2d79da;
+  background-image: linear-gradient(180deg, #23b1f6 0%, #00d998 100%);
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+}
+#clients h1 {
+  margin: 20px 2%;
+  font-size: 83px;
+  font-weight: bold;
+}
+#clients p {
+  margin: 10px 2%;
+  font-size: 28px;
+  width: 60%;
+}
+
+#clients-box {
+  margin-top: 40px;
+}
+
+#clients-box .clients-div {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-div {
+  /* position: relative; */
+  position: absolute;
+  transform: translate3d(0, 0, 0);
+  animation: slide 15s linear infinite;
+  border: 2px solid green;
+  padding: 10px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.clients-img {
+  max-width: 80%;
+  margin: auto auto;
+}
+
+.clients-title {
+  border-radius: 40px;
+  background-color: #fff;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.clients-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.clients-container {
+  width: 250px;
+  height: 300px;
+  align-items: center;
+}
+
+.clients-title {
+  box-sizing: border-box;
+  height: 70px;
+}
+
+@media (max-width: 1400px) {
+  #clients {
+    height: 75vh;
+  }
+  .clients-container {
+    width: 160px;
+    height: 160px;
+  }
+  #clients h1 {
+    font-size: 40px;
+  }
+  #clients p {
+    font-size: 30px;
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  #clients {
+    height: 70vh;
+  }
+  .clients-container {
+    width: 150px;
+    height: 150px;
+  }
+  #clients h1 {
+    font-size: 30px;
+  }
+  #clients p {
+    font-size: 20px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  #clients h1 {
+    margin: 10px;
+    font-size: 22px;
+  }
+  #clients p {
+    margin: 5px auto;
+    font-size: 14px;
+    width: 100%;
+  }
+  #clients {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .clients-container {
+    width: 110px;
+    height: 110px;
+  }
+
+  #clients {
+    height: 60vh;
+  }
+}

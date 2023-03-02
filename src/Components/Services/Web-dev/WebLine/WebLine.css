@@ -1,0 +1,55 @@
+.web-line-bg {
+  background-image: url(../../../../../public/img/web-dev/slogan-LIne.webp);
+  background-size: cover;
+  /* transform: rotate(0deg); */
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  /* z-index: -1; */
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+  padding: 60px 20px;
+
+}
+
+.web-line {
+  padding: 20px 0;
+  border: 2px solid red;
+}
+
+.web-line-bg h2 {
+  font-size: 70px;
+  font-weight: bold;
+}
+.web-line-bg p {
+  font-size: 30px;
+}
+
+.web-line {
+  margin: 30px 0;
+}
+
+@media (max-width: 800px) {
+  .web-line-bg {
+    padding: 60px 20px;
+    background-size: fill;
+  }
+
+  .web-line-bg div {
+    margin: 0 10px;
+  }
+
+  .web-line-bg h2 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .web-line-bg p {
+    font-size: 10px;
+  }
+
+  .web-line {
+    margin: 30px 0;
+  }
+}

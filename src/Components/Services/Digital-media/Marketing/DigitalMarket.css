@@ -1,0 +1,33 @@
+.digital-market {
+  height: 350px;
+  color: #000;
+  position: relative;
+  overflow: hidden;
+  margin: 40px 0;
+}
+
+.digital-market-heading h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.digital-market-heading {
+  padding: 40px 60px;
+}
+
+.digital-market-img img {
+  margin: 40px;
+}
+
+@media (max-width: 800px) {
+  .digital-market-heading h1 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .digital-market {
+    height: 200px;
+  }
+  .digital-market-heading {
+    padding: 20px;
+  }
+}

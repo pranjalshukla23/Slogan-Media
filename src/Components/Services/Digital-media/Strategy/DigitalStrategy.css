@@ -1,0 +1,73 @@
+.digital-strategy {
+  height: 100%;
+  padding: 10px 30px;
+  background-color: #ecfff9;
+  background-image: linear-gradient(209deg, #ecfff9 0%, #a0ffe7 100%);
+}
+
+.digital-strategy h1 {
+  font-size: 44px;
+  text-align: center;
+  font-weight: 500;
+  width: 60%;
+  margin: 10px auto;
+  padding: 20px 10px;
+}
+
+.digital-strategy-heading {
+}
+
+.digital-strategy-body {
+  display: flex;
+  /* justify-content:space-around; */
+}
+
+.digital-strategy-body p {
+  font-size: 22px;
+  color: #464646;
+}
+
+.digital-strategy-content {
+  padding: 10px 30px;
+  width: 50%;
+}
+
+@media (max-width: 1000px) {
+  .digital-strategy h1 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+    width: 100%;
+    margin: 10px auto;
+    padding: 20px 10px;
+  }
+
+  .digital-strategy-body p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 800px) {
+  .digital-strategy h1 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+    width: 100%;
+    margin: 10px auto;
+    padding: 20px 10px;
+  }
+
+  .digital-strategy-body {
+    flex-direction: column;
+    /* justify-content:space-around; */
+  }
+
+  .digital-strategy-body p {
+    font-size: 12px;
+  }
+
+  .digital-strategy-content {
+    padding: 10px 30px;
+    width: 100%;
+  }
+}

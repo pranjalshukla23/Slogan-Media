@@ -1,0 +1,10 @@
+.contact-banner {
+  background-image: url(../../../../public/img/contact/slogan-bg.webp);
+}
+
+@media (max-width: 700px) {
+  .contact-banner {
+    background-image: url(../../../../public/img/contact/slogan-bg-mb2.webp);
+    background-size: cover;
+  }
+}
