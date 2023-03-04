@@ -74,11 +74,11 @@ const Header = () => {
                 About Us
               </Link>
             </li>
-            <li class="dropdown">
+            <li className="dropdown">
               <a className="py-5 block">
                 Services<i className="fa fa-caret-down fa-lg fa-fw"></i>
               </a>
-              <div class="dropdown-content z-30">
+              <div className="dropdown-content z-30">
                 <Link to="/digital-media-advertisement">
                   Digital Media Advertisement
                 </Link>
@@ -147,7 +147,7 @@ const Header = () => {
                 <a className="py-5 block">
                   Services<i className="fa fa-caret-down fa-lg fa-fw"></i>
                 </a>
-                <div class="dropdown-content z-30">
+                <div className="dropdown-content z-30">
                   <Link to="/digital-media-advertisement">
                     Digital Media Advertisement
                   </Link>
