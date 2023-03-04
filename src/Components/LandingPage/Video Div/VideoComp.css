@@ -2,7 +2,6 @@
   padding: 20px 20px;
   width: 100%;
   justify-content: center;
-  border: 2px solid green;
 }
 
 .youtube-video iframe {
@@ -40,7 +39,6 @@
   overflow: hidden;
   display: flex;
   width: 100%;
-  border: 2px solid red;
 }
 
 .band-bg {

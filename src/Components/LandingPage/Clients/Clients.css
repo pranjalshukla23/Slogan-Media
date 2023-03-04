@@ -34,7 +34,7 @@
   position: absolute;
   transform: translate3d(0, 0, 0);
   animation: slide 15s linear infinite;
-  border: 2px solid green;
+
   padding: 10px;
 }
 

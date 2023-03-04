@@ -12,7 +12,11 @@ const ContactBlock = () => {
         <h1>
           Book a free online consultation with one of our senior executive
         </h1>
-        <a href="https://calendly.com/nixonlab/30min" target="_blank" rel="noreferrer">
+        <a
+          href="https://calendly.com/nixonlab/30min"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button
             className="digital-banner-btn text-white text-2xl m-2"
             style={{ borderRadius: "8px" }}
